@@ -1,23 +1,23 @@
-# 🚀 AI-Futuristic Text Case Converter
+#  AI-Futuristic Text Case Converter
 
 A modern, futuristic UI Java application that converts text between multiple cases instantly. Built with **Java + JavaFX**, this project combines sleek design with powerful text manipulation features.
 
 ---
 
-## 🎯 Features
-- 🔠 **Lowercase → Uppercase** conversion
-- 🔠 **Uppercase → Lowercase** conversion
-- ✍ **Sentence case** formatting
-- 📝 **Capitalized case** (Every Word Starts With Capital)
-- 📚 **Title case** formatting
-- 🔄 **Alternating case** (`aLtErNaTiNg`)
-- 🔃 **Inverse case** (Swap each letter’s case)
-- 📋 **Copy to Clipboard**
-- 💾 **Save to File**
+##  Features
+-  **Lowercase → Uppercase** conversion
+-  **Uppercase → Lowercase** conversion
+-  **Sentence case** formatting
+-  **Capitalized case** (Every Word Starts With Capital)
+-  **Title case** formatting
+-  **Alternating case** (`aLtErNaTiNg`)
+-  **Inverse case** (Swap each letter’s case)
+-  **Copy to Clipboard**
+-  **Save to File**
 
 ---
 
-## 🛠 Tech Stack
+##  Tech Stack
 - **Java 17+** (Core functionality)
 - **JavaFX** (Modern UI)
 - **CSS** (Futuristic neon theme)
@@ -25,7 +25,7 @@ A modern, futuristic UI Java application that converts text between multiple cas
 
 ---
 
-## 📦 Installation
+##  Installation
 ```bash
 # Clone the repository
 git clone https://github.com/Github-Saurabh0/AI-Futuristic-Text-Case-Converter.git
@@ -40,14 +40,14 @@ mvn javafx:run
 
 ---
 
-## 💻 Usage
+##  Usage
 1. Enter or paste your text in the text area.
 2. Choose the desired case conversion type.
 3. Copy the converted text or save it to a file.
 
 ---
 
-## 🎨 UI Design
+##  UI Design
 - **Dark + Neon Glow** theme for AI-futuristic feel
 - Glassmorphism effects with semi-transparent panels
 - Smooth hover animations for buttons
@@ -55,7 +55,7 @@ mvn javafx:run
 
 ---
 
-## 📸 Screenshots
+##  Screenshots
 *(Add your screenshots here after building the UI)*
 
 ---
@@ -71,5 +71,5 @@ mvn javafx:run
 
 ---
 
-## 📜 License
+##  License
 This project is licensed under the MIT License.
