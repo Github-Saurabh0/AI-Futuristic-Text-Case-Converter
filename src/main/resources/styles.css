@@ -1,0 +1,39 @@
+.root {
+    -fx-background-color: #1E1E1E;
+    -fx-font-family: 'Arial', sans-serif;
+}
+
+.text-area {
+    -fx-background-color: #2D2D2D;
+    -fx-text-fill: #FFFFFF;
+    -fx-control-inner-background: #2D2D2D;
+    -fx-highlight-fill: #00FF00;
+    -fx-highlight-text-fill: #000000;
+    -fx-border-color: #00FF00;
+    -fx-border-width: 1;
+    -fx-border-radius: 5;
+    -fx-effect: dropshadow(gaussian, #00FF00, 10, 0.5, 0, 0);
+}
+
+.button {
+    -fx-background-color: linear-gradient(to bottom, #00FF00, #008800);
+    -fx-text-fill: #000000;
+    -fx-font-weight: bold;
+    -fx-padding: 10 20;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-effect: dropshadow(gaussian, #00FF00, 10, 0.3, 0, 0);
+}
+
+.button:hover {
+    -fx-background-color: linear-gradient(to bottom, #00FF00, #00CC00);
+    -fx-scale-x: 1.05;
+    -fx-scale-y: 1.05;
+    -fx-effect: dropshadow(gaussian, #00FF00, 15, 0.5, 0, 0);
+}
+
+.button:pressed {
+    -fx-background-color: linear-gradient(to bottom, #008800, #006600);
+    -fx-scale-x: 0.95;
+    -fx-scale-y: 0.95;
+}
