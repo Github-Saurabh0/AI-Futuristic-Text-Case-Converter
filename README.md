@@ -55,8 +55,8 @@ mvn javafx:run
 
 ---
 
-##  Screenshots
-*(Add your screenshots here after building the UI)*
+##  Project Main Preview
+![Main Live Project](src/main/resources/images/Main_Project.png)
 
 ---
 
