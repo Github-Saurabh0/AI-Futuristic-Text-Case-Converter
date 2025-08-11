@@ -3,6 +3,7 @@ package com.wearl;
 import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.scene.control.*;
+import javafx.scene.image.Image;
 import javafx.scene.layout.*;
 import javafx.stage.Stage;
 import javafx.stage.FileChooser;
@@ -19,7 +20,11 @@ public class MainApp extends Application {
 
     @Override
     public void start(Stage primaryStage) {
-        primaryStage.setTitle("AI-Futuristic Text Case Converter");
+        primaryStage.setTitle("AI-Futuristic Text Case Converter || By Saurabhh");
+        primaryStage.getIcons().add(
+            new Image(getClass().getResourceAsStream("/images/ai_logo.png"))
+        );
+
 
         // Input TextArea
         inputTextArea = new TextArea();
@@ -74,7 +79,7 @@ public class MainApp extends Application {
         VBox root = new VBox(20, inputTextArea, buttonBox, outputTextArea, actionBox);
         root.setStyle("-fx-padding: 20; -fx-background-color: #1E1E1E;");
 
-        Scene scene = new Scene(root, 800, 600);
+        Scene scene = new Scene(root, 1000, 600);
         scene.getStylesheets().add(getClass().getResource("/styles.css").toExternalForm());
 
         primaryStage.setScene(scene);
