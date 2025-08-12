@@ -72,4 +72,18 @@ mvn javafx:run
 ---
 
 ##  License
-This project is licensed under the MIT License.
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+##  Author
+
+**Saurabh**
+-  Portfolio: [saurabhh.in](https://saurabhh.in)
+-  Email: Saurabbh@wearl.co.in
+-  Live Demo: [todo.saurabhh.in](https://todo.saurabhh.in)
+
+
+---
+
+⭐ **Star this repository if you find it helpful!** ⭐
+A smart Java-based task manager that uses OpenAI GPT to auto-categorize your tasks (Work, Personal, Urgent). Saves all data locally in JSON. CLI-based, deployable on custom subdomain.
